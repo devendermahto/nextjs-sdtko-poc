@@ -19,5 +19,6 @@ export default function Home() {
             <p>devendermahto%40gmail.com</p>
           </a>
         </div>
+  </div>
   )
 }
