@@ -9,21 +9,15 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Subdomain Takeover <a href="#">POC!</a>
+        <h1 >
+          Subdomain Takeover <a href="#">POC</a>
         </h1>
-
-        <p className={styles.description}>
-          Get started by editing{' '}
-          <code className={styles.code}>pages/index.js</code>
-        </p>
 
         <div className={styles.grid}>
           <a href="https://nextjs.org/docs" className={styles.card}>
             <h3>Contact &rarr;</h3>
-            <p>devendermahto@gmail.com</p>
+            <p>devendermahto%40gmail.com</p>
           </a>
-    </div>
+        </div>
   )
 }
