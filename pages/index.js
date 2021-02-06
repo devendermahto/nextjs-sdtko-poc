@@ -14,11 +14,17 @@ export default function Home() {
         </h1>
 
         <div className={styles.grid}>
-          <a href="https://nextjs.org/docs" className={styles.card}>
+          <a href="mailto:devendermahto@gmail.com" className={styles.card}>
             <h3>Contact &rarr;</h3>
-            <p>devendermahto%40gmail.com</p>
+            <p>devendermahto@gmail.com</p>
           </a>
         </div>
+           <div className={styles.grid}>
+          <a href="https://twitter.com/devendermahto" className={styles.card}>
+            <h3>Twitter &rarr;</h3>
+            <p>https://twitter.com/devendermahto</p>
+          </a>
+        </div> 
   </div>
   )
 }
